@@ -1,4 +1,6 @@
-script.Parent.MouseButton1Click:Connect(function()
+local hello = true
+
+if hello == true then
 	local culgui = Instance.new("ScreenGui")
 	local Frame = Instance.new("Frame")
 	local Page1 = Instance.new("Frame")
@@ -2129,4 +2131,4 @@ script.Parent.MouseButton1Click:Connect(function()
 		end)
 	end
 	coroutine.wrap(MOFRUWS_fake_script)()
-end)
+end
